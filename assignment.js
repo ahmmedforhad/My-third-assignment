@@ -27,12 +27,13 @@ var result = budgetCalculator(8,5,2);
 console.log(result);
 
 //hotelCost
+
 /** This function is delared to calculte the cost of staying in a hotel; where for first 
     ten days hotel cost is tk 100, next 10 to days cost is tk 80 and for remaining days
     cost is tk 50.*/
 
 function hotelCost(totalDays){
-    var totalCost = 0;
+    
     if (totalDays <= 10){
         var totalCost = totalDays * 100;
     }
