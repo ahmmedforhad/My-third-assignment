@@ -9,7 +9,7 @@ function kilometerToMeter(input){
     var result = Math.abs(input * 1000);    
     return result;
 }
-var output = kilometerToMeter('-77');
+var output = kilometerToMeter(77);
 console.log('Your answer is :',output,'m');
 
 
