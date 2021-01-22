@@ -1,3 +1,5 @@
+// https://github.com/ahmmedforhad/My-third-assignment
+
 // kilometerToMeter
 
 /** This Function is declared to convert any Kilometer input to meter. 
@@ -33,7 +35,7 @@ console.log(result);
     cost is tk 50.*/
 
 function hotelCost(totalDays){
-    
+
     if (totalDays <= 10){
         var totalCost = totalDays * 100;
     }
